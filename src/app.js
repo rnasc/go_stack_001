@@ -121,8 +121,10 @@ app.delete('/repositories/:id', (request, response) => {
   return response.status(204).send();
 })
 
-
-app.put('/repositories/:id/like', (request, response) => {
+/**
+ * POST route - Adds a like to the repository
+ */
+app.post('/repositories/:id/like', (request, response) => {
   const { id } = request.params;
   const repositoryIndex = repositories.findIndex(repository => repository.id == id);
 
@@ -137,8 +139,5 @@ app.put('/repositories/:id/like', (request, response) => {
   return response.status(201).json(repository);
 })
 
-app.listen(3333, () => {
-  console.log('😀 🚀 Back-end started!')
-});
+module.exports = app;
 
-// export default app;
