@@ -5,7 +5,7 @@ This repo contains the first challenge for the Rockseat Go Stack jorney I'm curr
 ## Rocketseat
 <h2 align="center">
     <a href="https://rocketseat.com.br" target="_blank"> 
-      <img alt="Rocketseat" title="#Rocketseat" src="/Rocketseat/awesome/raw/master/assets/logo_rocketseat.png" width="350px" />
+      <img alt="Rocketseat" title="#Rocketseat" src="https://github.com/Rocketseat/awesome/raw/master/assets/logo_rocketseat.png" width="350px" />
   </a>
 </h2>
 
